@@ -114,15 +114,15 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
-  color: var(--smoky-black);
+  background: var(green);
+  color: var(--bittersweet-shimmer);
 }
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: var(--white-2); }
 
 
 
@@ -230,7 +230,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--orange-yellow-crayola);
+  background: var(--eerie-black-2);
   border-radius: 5px;
 }
 
@@ -238,7 +238,7 @@ article.active {
 
 .content-card {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--bg-gradient-yellow-1);
   padding: 15px;
   padding-top: 45px;
   border-radius: 14px;
